@@ -19,8 +19,8 @@ const Home = () => {
             There are many different kinds of animals that live in China.
         </p>
         <div className='space-x-5 space-y-4'>
-            <button className='bg-secondary py-2 px-8  rounded font-semibold text-white hover:bg-primary transition-all duration-300 '>Get Started</button>
-            <button className='bg-secondary py-2 px-8  rounded font-semibold text-white hover:bg-primary transition-all duration-300 '>Discount</button>
+            <button className='bg-secondary py-2 px-8  rounded-xl font-semibold text-white hover:bg-primary transition-all duration-300 '>Get Started</button>
+            <button className='bg-secondary py-2 px-8  rounded-xl font-semibold text-white hover:bg-primary transition-all duration-300 '>Discount</button>
         </div>
     </div>
     
