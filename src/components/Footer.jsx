@@ -36,7 +36,7 @@ const Footer = () => {
 
 
       {/* Footer navigation */}
-      <div className='flex justify-between'>
+      <div className='flex flex-col sm:flex-row justify-between space-y-8 sm:space-y-0'>
         {/* Platform Links */}
         <div className='space-y-6'>
           <h4 className='text-xl '>Platform</h4>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         {/* Help Links */}
         <div className='space-y-6'>
-          <h4 className='text-xl '>Help</h4>
+          <h4 className='text-xl adadad'>Help</h4>
           <ul className='space-y-3'>
             <li><a href='/' className='block hover:text-gray-300'>How does it work?</a></li>
             <li><a href='/' className='block hover:text-gray-300'>Where to ask questions?</a></li>
@@ -59,6 +59,12 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+    </div>
+    <div>
+        <p>@NJR 20xx -- 2024. All rights reserved. </p>
+        <div>
+            <img src='' alt/>
+        </div>
     </div>
   </div>
   )

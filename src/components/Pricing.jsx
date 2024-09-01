@@ -4,9 +4,9 @@ import { useState } from 'react'
 const Pricing = () => {
     const [isYearly, setIsYearly] = useState(false);
     const packages =[
-        {name: 'Start', monthlyPrice : 24, yearlyPrice: 299,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna',green: "/src/assets/dot.png"},
-        {name: 'Advance', monthlyPrice : 49, yearlyPrice: 849,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna',green: "/src/assets/dot.png"},
-        {name: 'Premium', monthlyPrice : 70, yearlyPrice: 999,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna' 
+        {name: 'Start', monthlyPrice : 24, yearlyPrice: 299,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna',green: "/src/assets/dot.png", red:"/src/assets/dot2.png"},
+        {name: 'Advance', monthlyPrice : 49, yearlyPrice: 849,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna',green: "/src/assets/dot.png",red:"/src/assets/dot2.png"},
+        {name: 'Premium', monthlyPrice : 70, yearlyPrice: 999,description:'Lorem ipsum dolor sit amet: consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna',red:"/src/assets/dot2.png" 
         ,green: "/src/assets/dot.png"},
       ]
   return (
