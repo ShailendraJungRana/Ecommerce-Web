@@ -5,7 +5,8 @@ import './App.css'
 import Features from './components/Features'
 import About from './components/About'
 import Pricing from './components/Pricing'
-
+import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -15,6 +16,8 @@ function App() {
     <Features/>
     <About/>
     <Pricing/>
+    <Newsletter/>
+    <Footer/>
   </>
 
   )
