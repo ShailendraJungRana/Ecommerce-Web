@@ -58,6 +58,7 @@ const Navbar = () => {
             </div>
         </div>
     </nav>
+    {/*Navitems Container*/}
     <div className={`space-y-4 px-24 pt-5 pb-5 bg-secondary  ${ isMenuOpen ? "block fixed top-[72px] right-0 left-0 " : "hidden"}`}>
     {
                     navItems.map(({link,path}) => <a key ={link} href={path} className='block hover:text-gray-300'>{link} </a>)

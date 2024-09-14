@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/A.jpg'
+
 const Footer = () => {
   return (
     <div className='bg-[#010851]  md:px-14 p-4 max-w-full mx-auto text-white'>
@@ -50,7 +51,7 @@ const Footer = () => {
 
         {/* Help Links */}
         <div className='space-y-6'>
-          <h4 className='text-xl adadad'>Help</h4>
+          <h4 className='text-xl '>Help</h4>
           <ul className='space-y-3'>
             <li><a href='/' className='block hover:text-gray-300'>How does it work?</a></li>
             <li><a href='/' className='block hover:text-gray-300'>Where to ask questions?</a></li>
